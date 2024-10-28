@@ -79,7 +79,7 @@ public class Phone implements Comparable<Phone>  {
 
 
     public int compareTo(Phone other) {
-        return this.model.compareTo(other.model); // Сравниваем по модели
+        return this.model.compareTo(other.model); 
     }
 }
 
